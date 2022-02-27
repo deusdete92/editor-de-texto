@@ -1,0 +1,102 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.app {
+    border: 0.5px solid grey;
+    width: 600px;
+}
+
+.cabecalho {
+    border: 0.5px solid grey;
+    margin: 3px;
+}
+
+#selecao {
+    border: none;
+    border-radius: 2px;
+    margin: 2px;
+    outline: 2px solid rgb(149, 215, 241);
+    cursor: pointer;
+    transition: .2s;
+}
+
+#selecao:hover {
+    outline: none;
+    background-color: rgb(149,215,241);
+    color: whitesmoke;
+}
+
+#negrito {
+    font-weight: bolder;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+#negrito:hover {
+    background-color: rgb(149, 215, 241);
+    border-radius: 2px;
+}
+
+#italico {
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+#italico:hover {
+    background-color: rgb(149, 215, 241);
+    border-radius: 2px;
+}
+
+#copiar {
+    background-color: rgb(149, 215, 241);
+    color: white;
+    padding: 3px;
+    margin: 3px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#copiar:hover {
+    background-color: rgb(187, 225, 240);
+    color: gray;
+}
+
+#apagar {
+    background: red;
+    color: whitesmoke;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    margin: 0px 0px 0px 65%;
+    cursor: pointer;
+}
+
+.campo-texto {
+    border: 0.5px solid grey;
+    resize: none;
+    outline: none;
+    width: 98%;
+    height: 300px;
+    margin: 3px;
+}
+
+/* classes para ser usada no javascript */
+
+.maiuscula {
+    text-transform: uppercase;
+}
+.minuscula {
+    text-transform: lowercase;
+}
+.negrito {
+    font-weight: bold;
+}
+.italico {
+    font-style: italic;
+}

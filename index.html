@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/estilo.css">
+
+    <title>Editor de texto</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="app">
+
+            <div class="cabecalho">
+                <!-- selecionar maiúscula ou minúscula -->
+                <select id="selecao" onmouseleave="maiusculaMinuscula()">
+                    <option value="">Aa</option>
+                    <option value="maiuscula">A</option>
+                    <option value="minuscula">a</option>
+                </select>
+                <!-- botão negrito -->
+                <button id="negrito">N</button>
+                <!-- botão itálico -->
+                <button id="italico">I</button>
+                <!-- botão copiar -->
+                <button id="copiar">Copiar</button>
+                <!-- botão apagar tudo -->
+                <button id="apagar">Apagar</button>
+            </div>
+
+            <textarea id="texto" class="campo-texto" autofocus>
+
+            </textarea>
+
+        </div><!--fim app-->
+
+    </div>
+    
+    <script src="js/app.js"></script>
+</body>
+</html>
